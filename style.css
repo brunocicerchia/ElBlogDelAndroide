@@ -74,4 +74,12 @@ a {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(12,36,97,1);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(12,36,97,1);
+  box-shadow: 10px 10px 5px -6px rgba(12,36,97,1);
+}
+
+hr {
+  color: #f5f6fa;
+  border-width: 3px;
 }
