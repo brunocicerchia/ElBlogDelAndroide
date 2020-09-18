@@ -29,6 +29,7 @@ html, body {
     margin-top: 10%;
     font-family: 'Fredoka One', cursive; 
     color: #ecf0f1; 
+    text-shadow: 4px 4px 5px black; 
 }
 
 .social {  
@@ -79,7 +80,11 @@ a {
   box-shadow: 10px 10px 5px -6px rgba(12,36,97,1);
 }
 
-hr {
-  color: #f5f6fa;
+.flat-hr {
+  border-top: 1px solid #f5f6fa;
   border-width: 3px;
+}
+
+.texto {
+  font-family: 'Lato', sans-serif;
 }
