@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>ElBlogDelAndroide</title>
 </head>
-<body>
-    <div class="container-fluid bg" id="container">
+<body style="background-color: #1D1D5B;">
+    <!--  ONLY DESKTOP AND PORTATIL  -->
+    <div class="container-fluid bg d-none d-lg-block" id="container">
         <div class="row contenido">
             <div class="col-md-12"><h1 class="titulo text-center">ElBlogDelAndroide</h1></div>
         </div>
@@ -34,7 +35,38 @@
                     </div>
                 </div>
             </div>
-        </div>            
+        </div>
+        <div class="row d-flex justify-content-center contenido" style="color: aliceblue;">
+            <a href="https://www.instagram.com/elblogdelandroide/"><i class="fab fa-instagram social d-flex justify-content-center align-items-center"></i></a>
+            <a href="https://twitter.com/blog_androide"><i class="fab fa-twitter-square social d-flex justify-content-center align-items-center"></i></a>
+            <a href="https://open.spotify.com/show/6lTEZNYFXKpHpilpDpNLWe"><i class="fab fa-spotify social d-flex justify-content-center align-items-center"></i></a>
+            <a href="https://www.youtube.com/channel/UC7_2t0Q7Ykukh0Gpab67wRw"><i class="fab fa-youtube social d-flex justify-content-center align-items-center"></i></a>
+            <a href="https://medium.com/@elblogdelandroide"><i class="fab fa-medium social d-flex justify-content-center align-items-center"></i></a>
+        </div>
+    </div>
+    <!--  ONLY MOBILE AND TABLET  -->
+    <div class="container-fluid d-lg-none" id="container">
+        <div class="row contenido">
+            <div class="col-md-12"><h1 class="titulo text-center">ElBlogDelAndroide</h1></div>
+        </div>
+        <div class="container contenido">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 div-cuerpo">
+                    <h5 class="cuerpo align-middle text-center texto" style="margin-top: 10px;">Enterate de todas las novedades sobre tecnologia, programacion, criptomonedas y mas! No te pierdas ninguna de todas nuestras publicaciones.</h5>
+                    <hr class="flat-hr"></hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/podcast.jpg" style="height: 200px; width: 200px; margin-bottom: 15px; border: solid; border-color: aliceblue;" class="rounded mx-auto d-block">
+                            <p class="cuerpo align-middle text-left texto">Podes encontrar nuestro Podcast en todas las plataformas de streaming como Spotify, Anchor, etc.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/blog-icon.png" style="height: 200px; width: 200px; margin-bottom: 15px; border: solid; border-color: aliceblue;" class="rounded mx-auto d-block">
+                            <p class="cuerpo align-middle text-left texto">En Medium publicamos articulos que podes leer en pocos minutos para estar al tanto de todas las novedades.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row d-flex justify-content-center contenido" style="color: aliceblue;">
             <a href="https://www.instagram.com/elblogdelandroide/"><i class="fab fa-instagram social d-flex justify-content-center align-items-center"></i></a>
             <a href="https://twitter.com/blog_androide"><i class="fab fa-twitter-square social d-flex justify-content-center align-items-center"></i></a>
