@@ -3,81 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>ElBlogDelAndroide</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>ElBlogDelAndroide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: #1D1D5B;">
-    <!--  ONLY DESKTOP AND PORTATIL  -->
-    <div class="container-fluid bg d-none d-lg-block" id="container">
-        <div class="row contenido">
-            <div class="col-md-12"><h1 class="titulo text-center">ElBlogDelAndroide</h1></div>
+<body onload="noad()"> 
+  <div class="header bg-bubbles">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text" href="#">ElBlogDelAndroide</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text" aria-current="page" href="#">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text" aria-current="page" href="#">Blog</a>
+            </li>
+          </ul>
         </div>
-        <div class="container contenido">
-            <div class="row">
-                <div class="col-md-6 offset-md-3 div-cuerpo">
-                    <h5 class="cuerpo align-middle text-center texto" style="margin-top: 10px;">Enterate de todas las novedades sobre tecnologia, programacion, criptomonedas y mas! No te pierdas ninguna de todas nuestras publicaciones.</h5>
-                    <hr class="flat-hr"></hr>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="images/podcast.jpg" style="height: 200px; width: 200px; margin-bottom: 15px; border: solid; border-color: aliceblue;" class="rounded mx-auto d-block">
-                            <p class="cuerpo align-middle text-left texto">Podes encontrar nuestro Podcast en todas las plataformas de streaming como Spotify, Anchor, etc.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="images/blog-icon.png" style="height: 200px; width: 200px; margin-bottom: 15px; border: solid; border-color: aliceblue;" class="rounded mx-auto d-block">
-                            <p class="cuerpo align-middle text-left texto">En Medium publicamos articulos que podes leer en pocos minutos para estar al tanto de todas las novedades.</p>
-                        </div>
-                    </div>
+      </div>
+    </nav>
+    <img src="images/undraw_Online_learning_re_qw08.svg" class="img-fluid rounded mx-auto d-block" style="margin-top: 85px;">
+    <h3 class="d-block d-sm-none">hola</h3>
+  </div>
+  <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3 class="text text-center" style="text-decoration: underline;">De que se trata este blog?</h3>
+        <img src="images/final (0;00;00;00).jpg" class="img-fluid rounded mx-auto d-block" style="margin-top: 25px;">
+      </div>
+      <div class="col-sm-6">
+        <h5 class="text text-center" style="margin-top: 50px;">Somos amantes de la tecnologia, la programación y la musica!</h5>
+        <p class="text text-center">Si compartis alguno de nuestros gustos no dudes en seguirnos en Instagram, subimos contenido todos los dias!</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 d-flex justify-content-center"><a href="https://www.instagram.com/elblogdel.androide/"><i class="fab fa-instagram fa-3x rounded align-middle"></i></a></div>
+            <div class="col-md-3 d-flex justify-content-center"><a href="https://twitter.com/blog_androide"><i class="fab fa-twitter-square fa-3x rounded align-middle"></i></a></div>
+            <div class="col-md-3 d-flex justify-content-center"><a href="https://medium.com/@elblogdelandroide"><i class="fab fa-medium fa-3x rounded align-middle"></i></a></div>
+            <div class="col-md-3 d-flex justify-content-center"><a href="https://www.tiktok.com/@elblogdelandroide"><i class="fab fa-youtube fa-3x rounded align-middle"></i></a></div>
+          </div>
+        </div>
+        <!-- <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card d-flex" style="width: 18rem; width: 250px; height: 310px; margin-top: 50px;">
+                <img src="images/128855327_174345874404516_1171775779225398398_n.jpg" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <p class="card-text">Soundpeats TrueCapsule ❤️</p>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="row d-flex justify-content-center contenido" style="color: aliceblue;">
-            <a href="https://www.instagram.com/elblogdelandroide/"><i class="fab fa-instagram social d-flex justify-content-center align-items-center"></i></a>
-            <a href="https://twitter.com/blog_androide"><i class="fab fa-twitter-square social d-flex justify-content-center align-items-center"></i></a>
-            <a href="https://open.spotify.com/show/6lTEZNYFXKpHpilpDpNLWe"><i class="fab fa-spotify social d-flex justify-content-center align-items-center"></i></a>
-            <a href="https://www.youtube.com/channel/UC7_2t0Q7Ykukh0Gpab67wRw"><i class="fab fa-youtube social d-flex justify-content-center align-items-center"></i></a>
-            <a href="https://medium.com/@elblogdelandroide"><i class="fab fa-medium social d-flex justify-content-center align-items-center"></i></a>
-        </div>
+          </div>
+        </div>!-->
+      </div>
     </div>
-    <!--  ONLY MOBILE AND TABLET  -->
-    <div class="container-fluid d-lg-none" id="container">
-        <div class="row contenido">
-            <div class="col-md-12"><h1 class="titulo text-center">ElBlogDelAndroide</h1></div>
-        </div>
-        <div class="container contenido">
-            <div class="row">
-                <div class="col-md div-cuerpo">
-                    <h5 class="cuerpo align-middle text-center texto" style="margin-top: 10px;">Enterate de todas las novedades sobre tecnologia, programacion, criptomonedas y mas! No te pierdas ninguna de todas nuestras publicaciones.</h5>
-                    <hr class="flat-hr"></hr>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="images/podcast.jpg" style="height: 200px; width: 200px; margin-bottom: 15px; border: solid; border-color: aliceblue;" class="rounded mx-auto d-block">
-                            <p class="cuerpo align-middle text-left texto">Podes encontrar nuestro Podcast en todas las plataformas de streaming como Spotify, Anchor, etc.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="images/blog-icon.png" style="height: 200px; width: 200px; margin-bottom: 15px; border: solid; border-color: aliceblue;" class="rounded mx-auto d-block">
-                            <p class="cuerpo align-middle text-left texto">En Medium publicamos articulos que podes leer en pocos minutos para estar al tanto de todas las novedades.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center contenido" style="color: aliceblue;">
-            <a href="https://www.instagram.com/elblogdelandroide/"><i class="fab fa-instagram social d-flex justify-content-center align-items-center"></i></a>
-            <a href="https://twitter.com/blog_androide"><i class="fab fa-twitter-square social d-flex justify-content-center align-items-center"></i></a>
-            <a href="https://open.spotify.com/show/6lTEZNYFXKpHpilpDpNLWe"><i class="fab fa-spotify social d-flex justify-content-center align-items-center"></i></a>
-            <a href="https://www.youtube.com/channel/UC7_2t0Q7Ykukh0Gpab67wRw"><i class="fab fa-youtube social d-flex justify-content-center align-items-center"></i></a>
-            <a href="https://medium.com/@elblogdelandroide"><i class="fab fa-medium social d-flex justify-content-center align-items-center"></i></a>
-        </div>
-    </div>
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
