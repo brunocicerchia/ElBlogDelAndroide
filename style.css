@@ -1,13 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     background: rgb(31,51,122);
     background: linear-gradient(75deg, rgba(31,51,122,1) 8%, rgba(85,130,171,1) 69%);
     height: 100vh;
 }
 
-img {
+.header-img {
     pointer-events: none;
+    position: relative;
 }
 
 .text {
     font-family: 'Roboto', sans-serif;
+}
+
+.cuadrado {
+    margin-left: 15vh;
+    width: 100px; 
+    height: 100px;
+    background:#E6E6E6;
+    position: absolute;
+    animation: rebota 5s forwards;
+    border-radius: 5px;
+}
+
+@keyframes rebota {
+    0% {
+      transform: rotate(0deg);
+      margin-top: 10vh;
+      opacity: 0%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    100% {
+        transform: rotate(360deg);
+        margin-top: 70vh;
+    }
+  }
+
+svg {
+    color: #1F337A;
+}
+
+svg:hover {
+    border-radius: 50%;
+    border: solid 3px #1F337A;
+    color: #ffffff;
+}
+
+.site {
+    background: rgb(31,51,122);
+    background: linear-gradient(75deg, rgba(31,51,122,1) 8%, rgba(85,130,171,1) 69%);
+    height: 100vh;
 }

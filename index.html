@@ -11,9 +11,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="noad()"> 
+<body onload="motivacional()"> 
   <div class="header bg-bubbles">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000e4d;">
       <div class="container-fluid">
         <a class="navbar-brand text" href="#">ElBlogDelAndroide</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,10 +34,25 @@
         </div>
       </div>
     </nav>
-    <img src="images/undraw_Online_learning_re_qw08.svg" class="img-fluid rounded mx-auto d-block" style="margin-top: 85px;">
-    <h3 class="d-block d-sm-none">hola</h3>
+    <img src="images/undraw_Online_learning_re_qw08.svg" class="img-fluid rounded mx-auto d-block heaer-img" style="margin-top: 70px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="display: flex; align-items: center; justify-content: center; margin-top: 50px; max-height: 50vh;">
+          <h3 id="frase-motivacional" style="color:#E6E6E6;"></h3><p class="badge text-wrap text-decoration-underline align-text-bottom" id="autor" style="margin-left: 10px; background-color: #1F337A;"></p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="display: flex; align-items: center; justify-content: center; margin-top: 10px;">
+          <a href="#site"><svg width="50px" height="50px" viewBox="0 0 16 16" class="bi bi-arrow-down-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="downButton">
+            <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+          </svg></a>
+        </div>
+      </div>
+    </div>    
   </div>
-  <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+  <div class="container-fluid site" id="site">
     <div class="row">
       <div class="col-sm-6">
         <h3 class="text text-center" style="text-decoration: underline;">De que se trata este blog?</h3>
@@ -54,21 +69,10 @@
             <div class="col-md-3 d-flex justify-content-center"><a href="https://www.tiktok.com/@elblogdelandroide"><i class="fab fa-youtube fa-3x rounded align-middle"></i></a></div>
           </div>
         </div>
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="card d-flex" style="width: 18rem; width: 250px; height: 310px; margin-top: 50px;">
-                <img src="images/128855327_174345874404516_1171775779225398398_n.jpg" class="card-img-top img-fluid">
-                <div class="card-body">
-                  <p class="card-text">Soundpeats TrueCapsule ❤️</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>!-->
       </div>
     </div>
   </div>
+  <script src="motivacional.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
